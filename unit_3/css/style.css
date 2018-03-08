@@ -19,13 +19,9 @@ p {
   text-align: center;
   font-size: 24px
 }
-#list{
-  width:45%
-  padding: 1em;
-   margin:0 auto;
-}
 li {
   color: white;
   font-family: 'Amatic SC', cursive;
+  text-align: center;
   font-size: 24px
 }
