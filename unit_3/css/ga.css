@@ -1,5 +1,7 @@
 body {
  background-image: url('../../unit_3/images/plant2.png')
+ background-position: center;
+ background-size: cover;
 }
 h1{
   color: white;
