@@ -1,5 +1,7 @@
 body {
- background-image: url('asset 2.png');
- background-repeat: no-repeat;
- background-attachment: fixed;
+ background-image: url('asset2.png');
+}
+
+h1 {
+  font-family: helvetica;
 }
