@@ -1,10 +1,5 @@
 body {
  background-image: url("../../unit_3/images/ga.png");
- background-repeat: no-repeat;
- background-position: center;
  background-size: cover;
-}
-
-h1 {
-  font-family: helvetica;
+ font-family: helvetica;
 }
