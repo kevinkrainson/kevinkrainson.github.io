@@ -1,5 +1,8 @@
 body {
  background-color: #16FCCA;
+ background-image: url(../../unit_3/images/asset2.png);
+ background-repeat: no-repeat;
+ background-position: center;
  font-family: helvetica;
  text-align: center;
 }
