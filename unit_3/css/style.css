@@ -21,8 +21,8 @@ p {
 }
 #list{
   width:45%
-  padding: 1px;
-  margin0 auto;
+  padding: 1em;
+   margin:0 auto;
 }
 li {
   color: white;
