@@ -19,9 +19,10 @@ p {
   text-align: center;
   font-size: 24px
 }
-div {
+li {
+  float: left;
+  margin: 0 20px;
   color: white;
   font-family: 'Amatic SC', cursive;
   font-size: 24px
-  padding-left: 80px;
 }
