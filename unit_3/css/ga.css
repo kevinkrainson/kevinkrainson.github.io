@@ -2,9 +2,10 @@ body {
  background-image: url(../../unit_3/images/ga.png);
  background-repeat: no-repeat;
  background-position: center;
- font-family: helvetica;
- text-align: center;
 }
 h1{
+  font-family: helvetica;
   font-color: white;
+  text-align: center;
+  font-size: 72px;
 }
