@@ -3,13 +3,13 @@ body {
 }
 h1{
   color: white;
-  font-family: 'Amatic SC', cursive;
+  font-family: font-family: 'Bowlby One SC', cursive;
   text-align: center;
-  font-size: 72px;
+  font-size: 80px;
 }
 p {
   color: white;
-  font-family: 'Bowlby One SC', cursive;
+  font-family: 'Amatic SC', cursive;
   text-align: center;
   font-size: 24px
 }
