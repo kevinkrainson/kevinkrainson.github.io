@@ -1,14 +1,15 @@
 body {
- background-image: url('../../unit_3/images/ga.png')
+ background-image: url('../../unit_3/images/plant2.png')
 }
 h1{
   color: white;
-  font-family: helvetica;
+  font-family: 'Bowlby One SC', cursive;
   text-align: center;
   font-size: 72px;
 }
 p {
-  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  font-family: 'Bowlby One SC', cursive;
   text-align: center;
   font-size: 24px
 }
