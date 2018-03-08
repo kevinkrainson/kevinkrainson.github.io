@@ -1,7 +1,8 @@
 body {
- background-image: url("../../unit_3/images/Asset2.png");
+ background-image: url("../../unit_3/images/ga.png");
  background-repeat: no-repeat;
- background-position: bottom, center;
+ background-position: center;
+ background-size: cover;
 }
 
 h1 {
