@@ -2,8 +2,7 @@ body {
  color: white;
  text-align: center;
  background: linear-gradient(#FFDDD8,#73B295);
- background-repeat: no-repeat;
- background-size: cover;
+background-color: #73B295);
  /* url('../../unit_3/images/plant2.png' */
 }
 h1 {
