@@ -1,7 +1,7 @@
 body {
  color: white;
  text-align: center;
- background-color: linear-gradient(#FFDDD8,#73B295);
+ background: linear-gradient(#FFDDD8,#73B295);
  /* url('../../unit_3/images/plant2.png' */
 }
 h1 {
