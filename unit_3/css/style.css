@@ -16,13 +16,12 @@ p {
   font-family: 'Amatic SC', cursive;
   font-size: 24px;
 }
-ul{
-  padding-left: 400px;
-  padding-right: 400px;
-}
-li {
+ul.services {
+  text-align: left;
   font-family: 'Amatic SC', cursive;
   font-size: 24px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 a{
   color: white;
