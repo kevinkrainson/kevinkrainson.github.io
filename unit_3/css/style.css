@@ -17,6 +17,9 @@ p {
   font-family: 'Amatic SC', cursive;
   font-size: 24px
 }
+ul{
+  align-content: center;
+}
 li {
   font-family: 'Amatic SC', cursive;
   font-size: 24px
