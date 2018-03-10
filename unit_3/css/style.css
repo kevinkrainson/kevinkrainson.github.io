@@ -1,8 +1,7 @@
 body {
  color: white;
  text-align: center;
- background-color: pink;
- /*background-image: url('../../unit_3/images/plant2.png')*/
+ background: pink url('../../unit_3/images/plant2.png')
 }
 h1{
   font-family: 'Montserrat', sans-serif;
