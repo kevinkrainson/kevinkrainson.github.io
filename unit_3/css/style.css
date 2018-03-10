@@ -2,11 +2,12 @@ body {
  color: white;
  text-align: center;
  background-color: pink;
- /*background-image: url('../../unit_3/images/plant2.png') */
+ /*background-image: url('../../unit_3/images/plant2.png')*/
 }
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
+  padding-bottom: 10px;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
