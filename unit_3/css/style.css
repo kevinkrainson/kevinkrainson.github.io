@@ -20,8 +20,9 @@ ul.services {
   text-align: left;
   font-family: 'Amatic SC', cursive;
   font-size: 24px;
-  padding-left: 400px;
+  padding-left: 480px;
   padding-right: 400px;
+  width: 90px;
 }
 a{
   color: white;
