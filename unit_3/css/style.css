@@ -3,12 +3,12 @@ body {
  text-align: center;
  background: pink url('../../unit_3/images/plant2.png')
 }
-h1{
+h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   margin-bottom: 25px;
 }
-h2{
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
 }
@@ -16,12 +16,7 @@ p {
   font-family: 'Amatic SC', cursive;
   font-size: 24px;
 }
-ul.services {
-  font-family: 'Amatic SC', cursive;
-  font-size: 24px;
-  width: 90px;
-}
-a{
+a {
   color: white;
   font-size: 24px;
 }
