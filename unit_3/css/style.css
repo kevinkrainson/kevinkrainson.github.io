@@ -14,13 +14,17 @@ h2{
 }
 p {
   font-family: 'Amatic SC', cursive;
-  font-size: 24px
+  font-size: 24px;
+}
+ul{
+  padding-left: 400px;
+  padding-right: 400px;
 }
 li {
   font-family: 'Amatic SC', cursive;
-  font-size: 24px
+  font-size: 24px;
 }
 a{
   color: white;
-  font-size: 24px
+  font-size: 24px;
 }
