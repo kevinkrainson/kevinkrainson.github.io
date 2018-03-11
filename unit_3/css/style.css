@@ -9,7 +9,10 @@ body {
  /* url('../../unit_3/images/plant2.png' */
 }
 .gallery{
-  width: 500px;
+  margin: 5px;
+   border: 1px solid #ccc;
+   float: left;
+   width: 180px;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
