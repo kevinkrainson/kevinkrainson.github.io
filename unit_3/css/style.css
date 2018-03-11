@@ -14,7 +14,7 @@ body {
    float: left;
    left: 0px;
    width: 180px;
-   position: relative; 
+   position: relative;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -31,7 +31,8 @@ p {
   font-family: 'Amatic SC', cursive;
   font-size: 24px;
 }
-a {
+.contact {
   color: white;
   font-size: 24px;
+  bottom: 0px;
 }
