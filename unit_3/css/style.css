@@ -10,7 +10,8 @@ body {
 }
 .giphy-embed {
   margin:5px;
-  float:left;
+  width:100%;
+  height:100%;
   position:relative;
 }
 h1 {
