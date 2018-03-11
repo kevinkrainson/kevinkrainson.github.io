@@ -12,16 +12,20 @@ body {
   margin: 5px;
    border: 2px;
    float: left;
+   left: 0px;
    width: 180px;
+   position: relative; 
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   margin-bottom: 25px;
+  position: relative;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
+  position: relative;
 }
 p {
   font-family: 'Amatic SC', cursive;
