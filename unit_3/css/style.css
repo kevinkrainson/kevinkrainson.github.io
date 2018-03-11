@@ -17,7 +17,6 @@ body {
   position: relative;
 }
 .giphy-embed {
-  frameBorder: 0;
   position: absolute;
   width: 100%;
   height:100%;
