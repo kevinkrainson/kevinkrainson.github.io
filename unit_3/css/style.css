@@ -8,14 +8,14 @@ body {
   background-attachment: fixed;
   /* url('../../unit_3/images/plant2.png' */
 }
-.giphy{
+/*.giphy{
   margin: 5px;
   border: 2px;
   float: left;
   left: 0px;
   width: 180px;
   position: relative;
-}
+}*/
 .giphy-embed {
   position: absolute;
   width: 100%;
