@@ -8,6 +8,9 @@ body {
  background-attachment: fixed;
  /* url('../../unit_3/images/plant2.png' */
 }
+.gallery{
+  width: 500px;
+}
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
