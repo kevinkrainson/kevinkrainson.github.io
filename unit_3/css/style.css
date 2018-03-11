@@ -30,10 +30,14 @@ p {
   font-family: 'Amatic SC', cursive;
   font-size: 24px;
 }
-#contact {
+.button{
   bottom: 0px;
   position: fixed;
   text-align: center;
   margin: 0 auto;
-  width: 100%;
+}
+#contact {
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
 }
