@@ -33,7 +33,7 @@ p {
 #contact {
   bottom: 0px;
   position: fixed;
-  display: inline-block;
   text-align: center;
   margin: 0 auto;
+  width: 100%;
 }
