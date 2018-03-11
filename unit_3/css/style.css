@@ -10,7 +10,7 @@ body {
 }
 .giphy{
   margin: 5px;
-  /*border: 2px;*/
+  border: 2px;
   float: left;
   left: 0px;
   width: 180px;
