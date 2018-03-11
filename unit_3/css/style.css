@@ -33,4 +33,6 @@ p {
 .contact {
   bottom: 0px;
   position: fixed;
+  display: inline-block;
+  margin: 0 auto;
 }
