@@ -23,7 +23,14 @@ body {
   float:left;
   position:relative;
 }
-#gif_1 {
+}
+.giphy-embed {
+  width:100%;
+  height:50%;
+  frameBorder:0;
+  position:absolute;
+}
+#gif-1 {
   margin:3px;
   width: 12.500em;
   padding-bottom: 16.500em;
@@ -32,9 +39,8 @@ body {
   float:left;
   position:relative;
 }
-.giphy-embed {
+.giphy-embed-1 {
   width:100%;
-  height:50%;
   frameBorder:0;
   position:absolute;
 }
