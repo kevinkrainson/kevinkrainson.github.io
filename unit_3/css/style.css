@@ -26,7 +26,7 @@ body {
 .giphy-embed {
   width:50%;
   height:50%;
-  frameBorder:0;
+  frameBorder:-1;
   position:absolute;
 }
 /* .gallery{
