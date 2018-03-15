@@ -9,12 +9,27 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.logo{
+.logo {
   height: 200px;
   width: 200px;
   position:relative;
   }
-.gallery{
+#gif_1 {
+  width:100%;
+  height:0;
+  padding-bottom:70%;
+  position:relative:
+  margin:5px;
+  float:left;
+  left:0px;
+}
+.giphy-embed {
+  width:100%;
+  height:100%;
+  position:absolute;
+  frameBorder:0
+}
+/* .gallery{
   width:100%;
   height:0;
   padding-bottom: 100%
@@ -27,7 +42,7 @@ body {
   width:100%;
   height:100%;
   position:relative;
-}
+} */
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 6em;
