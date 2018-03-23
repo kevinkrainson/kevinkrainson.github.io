@@ -5,9 +5,9 @@
   margin: 0 auto;
 }
 .logo {
-  margin:0;
-  height: 200px;
-  width: 200px;
+  margin:0 100% 0 0;
+  height: 100px;
+  width: 100px;
   position:relative;
   transition: all 0.3s ease-in-out 0s;
 }
