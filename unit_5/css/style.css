@@ -4,6 +4,18 @@
   width: 960px;
   margin: 0 auto;
 }
+.logo {
+  margin:0;
+  height: 200px;
+  width: 200px;
+  position:relative;
+  transition: all 0.3s ease-in-out 0s;
+}
+.logo:hover{
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
 body {
   color: white;
   text-align: center;
@@ -64,17 +76,6 @@ ul.mininav {
 /* Hero contnet */
 #contnet {
   background: #FFE2B8;
-}
-.logo {
-  height: 200px;
-  width: 200px;
-  position:relative;
-  transition: all 0.3s ease-in-out 0s;
-}
-.logo:hover{
-  cursor: default;
-  transform: rotate(360deg);
-  transition: all 0.3s ease-in-out 0s;
 }
 .plant {
   height:50%;
