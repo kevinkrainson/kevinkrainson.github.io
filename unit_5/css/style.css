@@ -37,7 +37,8 @@ footer {
   text-align: center;
   padding: 1em 0;
 }
-nav{
+/* Nav Bar */
+nav {
   background-color: #E8C66A;
 }
 ul.mininav {
@@ -60,6 +61,10 @@ ul.mininav {
   padding: 14px 16px;
   text-decoration: none;
 }
+/* Hero contnet */
+#contnet {
+  background: #FFE2B8;
+}
 .logo {
   height: 200px;
   width: 200px;
@@ -70,16 +75,13 @@ ul.mininav {
   width:50%;
   position:relative;
 }
-#contnet {
-  background: #FFE2B8;
-}
 .info_card {
   /* background: #ffddd8; */
   background: #FFC675;
   margin: 0 10em 5em 10em;
   padding: 2em 3em 2em 3em;
 }
-.giphy-embed {
+.giphy-embed1 {
   background: #E89C6C;
   margin:0 0 2em 0;
   padding: 0;
@@ -93,4 +95,55 @@ ul.mininav {
   height: 100%;
   width: 100%;
   border-style: none;
+}
+/* 3D Cube */
+.stage {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  -webkit-perspective: 1600px;
+  -webkit-perspective-origin: 50% -240px;
+}
+figure {
+  display: block; position: absolute;
+  width: 300px; height: 300px;
+  background: linear-gradient(#FFDDD8,#FF9A8C);
+  -webkit-transform-origin: 50% 50% 0;
+  /* background: url(../images/plant.png); */
+}
+@-webkit-keyframes rotate {
+  0% { -webkit-transform: rotateY(0); }
+  100% { -webkit-transform: rotateY(360deg); }
+}
+.cube {
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: rotate 10s infinite linear;
+}
+.front {
+  -webkit-transform: translateZ(150px);
+}
+.back {
+  -webkit-transform: rotateY(180deg) translateZ(150px);
+}
+.top {
+  -webkit-transform: rotateX(90deg) translateZ(150px);
+}
+.bottom {
+  -webkit-transform: rotateX(-90deg) translateZ(150px);
+  -webkit-box-shadow: 0 10px 100px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0);
+}
+.left {
+  -webkit-transform: rotateY(-90deg) translateZ(150px);
+}
+.right {
+  -webkit-transform: rotateY(90deg) translateZ(150px);
+}
+.ross {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  padding: .5em .5em 0 .5em;
+}
+.tagline {
+  margin: 6em 0 0 0;
 }
