@@ -69,12 +69,12 @@ ul.mininav {
   height: 200px;
   width: 200px;
   position:relative;
-  -webkit-transform: .8s ease-in-out;
-  transition: transfrom .8s ease-in-out;
+  transition: all 0.3s ease-in-out 0s;
 }
 .logo:hover{
-  -webkit-transform:rotate(360deg);
+  cursor: default;
   transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
 }
 .plant {
   height:50%;
