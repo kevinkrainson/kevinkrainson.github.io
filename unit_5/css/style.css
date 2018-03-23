@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:900|Amatic+SC:700&effect=anaglyph);
-
+/* Main elements */
 #wrapper {
   width: 960px;
   margin: 0 auto;
@@ -127,6 +127,7 @@ figure {
 }
 .top {
   -webkit-transform: rotateX(90deg) translateZ(150px);
+  background:#FFDDD8;
 }
 .bottom {
   -webkit-transform: rotateX(-90deg) translateZ(150px);
