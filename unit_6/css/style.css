@@ -82,13 +82,14 @@ float: right;
   background: linear-gradient(#FF9A8C,#FFF);
   display: inline-block;
   float: right;
-  margin: 0 0 5em 0;
+  margin: 0;
   position: sticky;
   clear: both;
 }
 #left_contnet {
   width: 56%;
   padding: 2%;
+  margin: 0;
   background: #1E9983;
   display: inline-block;
   float: left;
