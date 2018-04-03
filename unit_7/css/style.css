@@ -16,7 +16,7 @@ body {
   clear:both;
 }
 #right {
-  background: linear-gradient(#FF9A8C,#FFF);
+  background: linear-gradient(#FF9A8C,#FFF,#FFF,#FFF);
   width: 26%;
   height: auto;
   right: 0;
@@ -50,7 +50,8 @@ p {
 ul.mininav {
   list-style-type: none;
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
+  text-align: center;
   font-variant: small-caps;
   letter-spacing: .1em;
   margin: 0;
@@ -73,17 +74,39 @@ ul.mininav_2 {
   justify-content: center;
 }
 .nav a {
+  text-shadow: 1px 1px #FF9A8C,
+               2px 2px #FF9A8C,
+               3px 3px #FF9A8C;
+               -webkit-transition: all 0.12s ease-out;
+               -moz-transition:    all 0.12s ease-out;
+               -ms-transition:     all 0.12s ease-out;
+               -o-transition:      all 0.12s ease-out;
+  color: #FFF;
   display: inline-block;
+  padding: 20px 16px;
+  margin: 0;
+  text-decoration: none;
+}
+.nav_2 a {
   color: #444;
-  text-align: center;
+  display: inline-block;
   padding: 20px 16px;
   margin: 0;
   text-decoration: none;
 }
 .nav a:hover{
-  -webkit-animation:colorchange 2s;
+  /* -webkit-animation:colorchange 2s; */
+ position: relative;
+ top: -3px;
+ left: -3px;
+ text-shadow: 1px 1px #fe4902,
+              2px 2px #fe4902,
+              3px 3px #fe4902,
+              4px 4px #fe4902,
+              5px 5px #fe4902,
+              6px 6px #fe4902;
 }
-@-webkit-keyframes colorchange {
+/* @-webkit-keyframes colorchange {
   0% {
     color: #98FFB3;
   }
@@ -93,7 +116,7 @@ ul.mininav_2 {
   100% {
     color: #444;
   }
-}
+} */
 /* LEFT COLUM */
 .left_contnet {
   width: auto;
@@ -106,6 +129,7 @@ ul.mininav_2 {
   margin:0;
 }
 .left_title {
+  background-color: #fff;
   color: #FF9A8C;
   padding: 1em 0;
   margin:0;
