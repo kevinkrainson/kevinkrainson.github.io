@@ -154,7 +154,7 @@ ul.mininav_2 {
     padding:5%;
     margin: 1em;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 #colum_l {
     background-color: violet;
