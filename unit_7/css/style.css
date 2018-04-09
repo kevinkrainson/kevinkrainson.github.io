@@ -14,27 +14,27 @@ nav {
   position: relative;
   display: inline-block;
 }
+header {
+  background: url(7FBEB723-053A-4F8D-B994-F9474453DAE7-filtered 3.JPG);
+}
+#wrapper {
+  margin: 1em;
+  position: relative;
+}
 #left {
   width: 74%;
   height: 100%;
-  position: relative;
   top:0;
   bottom: 0;
   float: left;
-}
-.left_contnet {
-  width: auto;
-  padding:0 2% 0 0;
-}
-.img_1 {
-  width: 100%;
+  position: relative;
 }
 #right {
   background: linear-gradient(#FF9A8C,#FFF);
   width: 22%;
   padding: 0 2%;
   height: 100%;
-  float: right;
+  float: left;
   right: 0;
   bottom: 0;
   display: inline-block;
@@ -43,10 +43,6 @@ nav {
 .right_contnet {
   padding: 2px;
   height: 100%;
-}
-#wrapper {
-  margin: 1em;
-  position: relative;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -148,6 +144,16 @@ ul.mininav_2 {
   margin:0;
   font-variant: small-caps;
 }
+.left_des {
+  text-align: left;
+}
+.left_contnet {
+  width: auto;
+  padding:0 2% 0 0;
+}
+.img_1 {
+  width: 100%;
+}
 #two_column {
     background-color: #FFF;
     border: 1px black solid;
@@ -157,9 +163,9 @@ ul.mininav_2 {
     flex-wrap: wrap;
 }
 #colum_l {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
+    /* background-color: violet;
+    border: 1px black solid; */
+    padding: 2%;
     float: left;
     width: 58%;
 }
@@ -169,23 +175,21 @@ ul.mininav_2 {
     margin-left: 10%;
     width: 14.5%;
 }
-#featured_contnet {
-    padding:5%;
-    margin: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .plant {
     width: 75%;
 }
+#featured_contnet {
+  padding:5%;
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 #article_l {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 10% 5%;
     margin-right: 2%;
     float: left;
     width: 20%;
+    height: 100%;
 }
 #article_2 {
     background-color: violet;
@@ -202,8 +206,17 @@ ul.mininav_2 {
     float: left;
     width: 20%;
 }
-
-/* RIGHT COLUM */
+.poster_1 {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.poster_1:hover{
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
+/* Footer */
 .cc{
   font-family: 'Roboto', sans-serif;
   font-size: .5em;
@@ -257,13 +270,3 @@ figure {
 .right {
   -webkit-transform: rotateY(90deg) translateZ(50px);
 }
-/* .logo {
-  width: 50%;
-  height: 100%;
-  transition: all 0.3s ease-in-out 0s;
-}
-.logo:hover{
-  cursor: default;
-  transform: rotate(360deg);
-  transition: all 0.3s ease-in-out 0s;
-} */
