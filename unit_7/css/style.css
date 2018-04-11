@@ -14,7 +14,7 @@ header{
   position: relative;
 }
 #top {
-  background: url("/Users/kevinkrainson/Desktop/kevinkrainson.github.io/unit_7/images/plant.png") no-repeat center;
+  background: url("../../unit_7/images/plant.png") no-repeat center;
   background-size: cover;
   height: 70vh;
   margin-bottom: 2%;
