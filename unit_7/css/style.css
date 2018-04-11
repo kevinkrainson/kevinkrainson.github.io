@@ -14,7 +14,7 @@ header{
   position: relative;
 }
 #top {
-  background: url("/Users/kevinkrainson/Desktop/kevinkrainson.github.io/unit_7/images/7FBEB723-053A-4F8D-B994-F9474453DAE7-filtered 3.JPG") no-repeat center;
+  background: url("/Users/kevinkrainson/Desktop/kevinkrainson.github.io/unit_7/images/plant.png") no-repeat center;
   background-size: cover;
   height: 70vh;
   margin-bottom: 2%;
@@ -100,16 +100,18 @@ ul.mininav {
 }
 /* LEFT COLUMN */
 .left_header {
+  border: .5em solid transparent;
+  border-image: linear-gradient(-45deg, #FF9A8C,#D8FFED,#FFF3F1);
+  border-image-slice: 1;
   background-color: #fff;
   margin:0;
   padding: 2%;
 }
 .left_title {
-  background-color: #fff;
-  color: #FF9A8C;
+  color: #444;
   font-variant: small-caps;
   margin:0;
-  padding: 5% 0;
+  padding:0;
 }
 .left_des {
   text-align: left;
@@ -149,37 +151,10 @@ p {
   margin-top: 50%;
   width: 100%;
 }
-/* SECONDARY CONTENT */
-#two_column {
-    background-color: violet;
-    border: 1px black solid;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5%;
-    padding:5%;
-}
-#column_l {
-    background-color: #fff;
-    border: 1px black solid;
-    padding: 2%;
-    float: left;
-    width: 58%;
-}
-#column_2 {
-    background-color: #fff;
-    border: 1px black solid;
-    padding: 2%;
-    float: left;
-    margin-left: 10%;
-    width: 14.5%;
-}
-.plant {
-    width: 100%;
-}
 /* FEATURED GRID */
 #featured_contnet {
     padding:5%;
-    margin: 5%;
+    margin: 10% 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -297,9 +272,3 @@ figure {
   -webkit-transform: rotateY(90deg) translateZ(100px);
 }
 /* MEDIA QUERY */
-@media only screen and (max-width:700px) {
-#wrapper {
-  float: none;
-  width: auto;
-  }
-}
