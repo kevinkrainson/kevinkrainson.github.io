@@ -23,7 +23,7 @@ header{
   width: 100%;
 }
 #top:before {
-  background: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.2));
+  background: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.3));
   content: "";
   position: absolute;
   top: 0;
@@ -54,29 +54,28 @@ h1 {
                -ms-transition:     all 0.12s ease-out;
                -o-transition:      all 0.12s ease-out;
 }
-ul.mininav {
-  display: flex;
-  flex-wrap: wrap;
+nav {
   float: right;
   font-family: 'Roboto','Helvetica',sans-serif;
   font-size: 1.5em;
   font-variant: small-caps;
   justify-content: center;
   letter-spacing: .1em;
-  list-style-type: none;
   margin: 0;
+  position: relative;
   text-align: center;
 }
-.nav a {
+nav a {
   color: #FFF;
-  display: inline-block;
+  display: block;
+  float: left;
   margin: 0;
   padding: 20px 16px;
   text-decoration: none;
+  transition-duration: .15s;
 }
-.nav a:hover{
+nav a:hover{
  left: -3px;
- position: relative;
  top: -3px;
  text-shadow: 1px 1px #fe4902,
               2px 2px #fe4902,
@@ -134,7 +133,7 @@ p {
 }
 /* RIGHT COLUMN */
 #feature_graphics {
-  /* background: linear-gradient(#73B295,#D8FFED,#FFF3F1,#FFDDD8,#B28B85 ); */
+  background: url("../../unit_7/images/flowers.png") repeat-y center;
   bottom: 0;
   float: right;
   height: 100%;
@@ -159,29 +158,14 @@ p {
     flex-wrap: wrap;
     justify-content: center;
 }
-#article_l {
+.article_1 {
+    box-sizing: border-box;
     background-color: #fff;
     border: 1px black solid;
-    padding: 10% 5%;
-    margin-right: 2%;
     float: left;
-    width: 20%;
-    height: 100%;
-}
-#article_2 {
-    background-color: #fff;
-    border: 1px black solid;
-    padding: 10% 5%;
-    margin-right: 2%;
-    float: left;
-    width: 20%;
-}
-#article_3 {
-    background-color: #fff;
-    border: 1px black solid;
-    padding: 10% 5%;
-    float: left;
-    width: 20%;
+    padding:1em;
+    width: 31.33%;
+    margin:1%;
 }
 /* FOOTER */
 footer {
@@ -272,9 +256,26 @@ figure {
   -webkit-transform: rotateY(90deg) translateZ(100px);
 }
 /* MEDIA QUERY */
-@media only screen and (max-width: 786px){
-  .article_l {
+@media only screen and (max-width: 1000px){
+  .article_1 {
     float: none;
     width: auto;
+  }
+}
+@media only screen and (max-width: 760px){
+  nav, nav a, h1 {
+    display: block;
+    float: none;
+    position: relative;
+    justify-content: left;
+    text-align: left;
+    padding-left: 2%;
+  }
+  #feature_graphics {
+    visibility: hidden;
+  }
+  #feature_blog {
+    width: auto;
+    margin:0;
   }
 }
