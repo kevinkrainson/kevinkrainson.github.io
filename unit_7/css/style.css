@@ -134,7 +134,7 @@ p {
 }
 /* RIGHT COLUMN */
 #feature_graphics {
-  background: linear-gradient(#73B295,#D8FFED,#FFF3F1,#FFDDD8,#B28B85 );
+  /* background: linear-gradient(#73B295,#D8FFED,#FFF3F1,#FFDDD8,#B28B85 ); */
   bottom: 0;
   float: right;
   height: 100%;
@@ -272,3 +272,9 @@ figure {
   -webkit-transform: rotateY(90deg) translateZ(100px);
 }
 /* MEDIA QUERY */
+@media only screen and (max-width: 786px){
+  .article_l {
+    float: none;
+    width: auto;
+  }
+}
