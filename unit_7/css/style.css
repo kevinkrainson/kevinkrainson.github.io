@@ -116,7 +116,7 @@ nav a:hover{
   text-align: left;
 }
 .left_contnet {
-  padding:0 2% 0 0;
+  padding:0;
   width: auto;
 }
 .img_1 {
@@ -262,7 +262,7 @@ figure {
     width: auto;
   }
 }
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 700px) and (min-width: 480px){
   nav, nav a, h1 {
     display: block;
     float: none;
@@ -277,5 +277,61 @@ figure {
   #feature_blog {
     width: auto;
     margin:0;
+  }
+  .article_1 {
+    float: none;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 480px){
+  #top{
+    background:#FFDDD8;
+    height: auto;
+  }
+  #top:before{
+    visibility: hidden;
+  }
+  h1 {
+    display: block;
+    margin-bottom: .3em;
+    float: none;
+    text-align: center;
+    padding-left: 2%;
+    text-shadow: 1px 1px #FF9A8C,
+                 2px 2px #FF9A8C,
+                 3px 3px #FF9A8C;
+  }
+  nav {
+    display: flex;
+    overflow: hidden;
+    background-color: #FF9A8B;
+    border: 2px solid #FFF;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    width: 99%;
+    z-index:1000;
+    font-family: 'Roboto','Helvetica',sans-serif;
+    font-size: 1.1em;
+  }
+  nav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    justify-content: center;
+  }
+  #feature_graphics {
+    visibility: hidden;
+  }
+  #feature_blog {
+    width: auto;
+    margin:0;
+  }
+  .article_1 {
+    float: none;
+    width: auto;
+  }
+  footer {
+    visibility: hidden;
   }
 }
