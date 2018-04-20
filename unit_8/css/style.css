@@ -116,7 +116,7 @@ nav a:hover{
   text-align: left;
 }
 .left_contnet {
-  padding:0 2% 0 0;
+  padding:0;
   width: auto;
 }
 .img_1 {
@@ -256,13 +256,22 @@ figure {
   -webkit-transform: rotateY(90deg) translateZ(100px);
 }
 /* MEDIA QUERY */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 5000px)and (min-width: 480px){
+  .btm_nav {
+    visibility: hidden;
+  }
+  .material-icons {
+    visibility: hidden;
+  }
   .article_1 {
     float: none;
     width: auto;
   }
 }
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 700px) and (min-width: 480px){
+  .material-icons {
+    visibility: hidden;
+  }
   nav, nav a, h1 {
     display: block;
     float: none;
@@ -277,5 +286,82 @@ figure {
   #feature_blog {
     width: auto;
     margin:0;
+  }
+  .article_1 {
+    float: none;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 480px){
+  body {
+    background: linear-gradient(#FF9A8C, #FFDDD8,#FFDDD8);
+  }
+  #wrapper{
+    margin: 3%;
+  }
+  .material-icons {
+    float:right;
+    padding: .4em .6em 0 0;
+    color: #f2f2f2;
+  }
+  #top{
+    background: transparent;
+    height: auto;
+  }
+  #top:before{
+    visibility: hidden;
+  }
+  h1 {
+    display: block;
+    margin-left:0px;
+    float: none;
+    text-align: center;
+    text-shadow: 1px 1px #FF9A8C,
+                 2px 2px #FF9A8C,
+                 3px 3px #FF9A8C;
+  }
+  nav {
+    display: flex;
+    overflow: hidden;
+    background-color: #fff;
+    border: 2px solid #333;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    width: 99%;
+    z-index:1000;
+    font-family: 'Roboto','Helvetica',sans-serif;
+    font-weight: bolder;
+    font-size: 1.1em;
+  }
+  nav a {
+    display: block;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+  }
+  nav a:hover{
+   left: -3px;
+   top: -3px;
+   text-shadow: 1px 1px #FF9A8C,
+                2px 2px #FF9A8C,
+                3px 3px #FF9A8C,
+                4px 4px #FF9A8C,
+                5px 5px #FF9A8C,
+                6px 6px #FF9A8C;
+              }
+  #feature_graphics {
+    visibility: hidden;
+  }
+  #feature_blog {
+    width: auto;
+    margin:0;
+  }
+  .article_1 {
+    float: none;
+    width: auto;
+  }
+  footer {
+    visibility: hidden;
   }
 }
